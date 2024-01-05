@@ -2,9 +2,7 @@ public class Lesson5TaskAdd3 {
 
     public static void main(String[] args) {
 
-        int[] numbers = {18, 2, 30, 35, 99};
-        System.out.println(getLargest(numbers));
-        System.out.println(getLargest(new int[]{15, 12, 22, 33}));
+       System.out.println(getLargest(new int[]{15, 72, 22, 33}));
     }
 
     public static int getLargest(int[] numbers) {
